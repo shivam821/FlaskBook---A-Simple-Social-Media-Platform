@@ -43,3 +43,14 @@
 3. Configure your web server (e.g., Nginx or Apache) to serve the Flask application using a WSGI server (e.g., Gunicorn).
 4. Set up a domain name and configure DNS settings to point to your server.
 5. Secure your application by using HTTPS, configuring firewalls, and following best practices for server security.
+
+## Tools/Technology Used:
+
+1. Flask: Micro web framework for Python used for building web applications.
+2. SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library for Python used for database management.
+3. Flask-Login: Flask extension is used for user session management and authentication.
+4. bcrypt: Password hashing library for Python used for securely hashing passwords.
+5. SQLite: Lightweight relational database management system used for storing user data and posts.
+6. HTML/CSS: Markup and styling languages used for building the user interface.
+7. Jinja2: Template engine for Python used for generating HTML content dynamically in Flask applications.
+8. Git/GitHub: Version control system and platform for collaborative software development used for managing the project's source code.
