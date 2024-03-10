@@ -26,3 +26,20 @@
 ### Flash Messages:
 1. Flash messages are used to provide feedback to users after performing actions such as logging in, signing up, or creating/deleting posts.
 2. Flash messages are displayed to the user on the corresponding pages.
+
+## Installation & Deployment:
+### To run this project locally, follow these steps:
+
+1. Clone the repository from GitHub.
+2. Install the required dependencies listed in the requirements.txt file using pip.
+3. Set up a virtual environment to isolate the project dependencies.
+4. Initialize the SQLite database by running python app.py or flask run.
+5. Access the application in your web browser at http://localhost:8080.
+   
+### For deployment:
+
+1. Set up a production environment (e.g., a cloud server or a web hosting service).
+2. Configure your server environment to meet the project's requirements (e.g., installing Python, setting up a database).
+3. Configure your web server (e.g., Nginx or Apache) to serve the Flask application using a WSGI server (e.g., Gunicorn).
+4. Set up a domain name and configure DNS settings to point to your server.
+5. Secure your application by using HTTPS, configuring firewalls, and following best practices for server security.
